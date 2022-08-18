@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.background-container1, .background-container2{
+    width: 100%;
+    height: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50% ;
+    background-position-y: 50% ;
+    background-size: cover;
+    color: rgb(102, 102, 102);
+    opacity: .7;
+}
+.first-page{
+    height: 150px;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px ;
+    border-top: 8px solid rgb(105, 2, 105);
+    border-left: 8px solid rgb(105, 2, 105);
+    border-bottom: 8px solid rgb(196, 7, 196);
+    border-right: 8px solid rgb(196, 7, 196);
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.first-page h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 80;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    padding: 20px 50px;
+    letter-spacing: 5px;
+    line-height: 65px;
+}
+.full-stack{
+    height: 250px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    font-size: 18px;
+    overflow: scroll;
+
+}
+.full-stack h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+.full-stack-p{
+    margin: 35px 30px;
+    color: black;
+}
+.background-container2{
+    background-image: url(./img/bg2.jpg);
+    position: relative;
+}
+img.clarusway{
+    width: 430px;
+    position: absolute;
+    top: 60%;
+}
